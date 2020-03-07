@@ -1,0 +1,26 @@
+The Given is IP,Mask
+
+[ip: 192.168.204.197]
+[mask[:26]
+
+convert the Ip to binary:
+{1100 0000.1010 1000.1100.1100.11000 0101}
+
+mask repeat number one 26 times and zero 6 times:
+{1111 1111.1111 1111.1111 1111.1100 0000}
+
+ mask to ip mask {255.255.255.192}
+
+subnet:192
+
+min is +1 = 193
+{1100 0000.1010 1000.1100 1100.1100 0101}
+{1111 1111.1111 1111.1111 1111.1100 0000}
+
+broadcast is 255
+
+to get max just minus 1 so it is 254.
+
+binary = 1100 0000.1010 1000.1100 1100.1100 0101
+mask = 1111 1111.1111 1111.1111 1111.1100 0000
+
